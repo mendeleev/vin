@@ -1,0 +1,23 @@
+{
+  "name": "vin_decoder",
+  "version": "0.0.1",
+  "description": "decode VIN codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mendeleev/vin.git"
+  },
+  "keywords": [
+    "VIN",
+    "decode"
+  ],
+  "author": "Andrii Priadko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mendeleev/vin/issues"
+  },
+  "homepage": "https://github.com/mendeleev/vin#readme"
+}
