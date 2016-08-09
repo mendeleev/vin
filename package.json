@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/mendeleev/vin/issues"
   },
-  "homepage": "https://github.com/mendeleev/vin#readme"
+  "homepage": "https://github.com/mendeleev/vin#readme",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
 }

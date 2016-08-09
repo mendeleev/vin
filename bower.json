@@ -1,0 +1,25 @@
+{
+  "name": "vin_decoder",
+  "description": "decode VIN codes",
+  "main": "index.js",
+  "authors": [
+    "Andrii Priadko"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "VIN",
+    "decode"
+  ],
+  "homepage": "https://github.com/mendeleev/vin",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "requirejs": "^2.2.0"
+  }
+}
