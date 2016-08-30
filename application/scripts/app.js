@@ -8,6 +8,6 @@
     }
   });
 
-  define(["modules/vin"]);
+  define(["modules/vin/module"]);
 
 })();

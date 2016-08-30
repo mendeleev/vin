@@ -1,5 +1,9 @@
 (function(){
-  define("modules/vin", ["jquery"], function($) {
+  define("modules/vin/module", [
+    "jquery",
+    "modules/vin/decoder"
+  ],
+  function($, decoder) {
     return {
       form: $("form"),
       init: function() {
@@ -15,15 +19,7 @@
       },
 
       parse: function(vin) {
-        var manufacturer = vin.slice(0,3),
-            vds = vin.slice(3,9),
-            vis = vin.slice(9);
-
-        console.log("manufacturer -> ", manufacturer);
-        console.log("vds -> ", vds);
-        console.log("vis -> ", vis);
-
-        console.log([manufacturer, vds, vis].join("").length);
+        console.log(decoder.decode(vin));
       }
     }.init();
 
